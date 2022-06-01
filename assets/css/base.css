@@ -69,94 +69,25 @@ html {
     border-radius: 3px;
 }
 
-/* Authentication form */
-.auth-form {
-    width: 400px;
-}
-
-.auth-form-container {
-    padding: 0 32px;
-}
-
-.auth-form__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.auth-form__heading {
-    font-size: 2.2rem;
-    font-weight: 400;
-    color: var(--text-color);
-}
-
-.auth-form__switch-btn {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    font-weight: 400;
-    cursor: pointer;
-
-}
-
-.auth-form_form {
-}
-
-.auth-form_input {
-    width: 100%;
-    height: 40px;
-    margin-top: 16px;
-    padding: 0 12px;
-    font-size: 1.4rem;
-    border: 1px solid var(--border-color);
-    border-radius: 2px;
-    outline: none;
-}
-
-.auth-form_input:focus {
-    border-color: #888;
-}
-
-.auth-form__aside {
-    margin-top: 18px;
-    width: 100%;
-}
-
-.auth-form__policy-text {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    text-align: center;
-    padding: 0 12px;
-    width: 400px;
-}
-
-.auth-form__text-link {
-    color: var(--primary-color);
-    text-decoration: none;
-
-}
-
-.auth-form__controls {
-    margin-top: 80px;
-}
-
-
 
 /* Button style */
 .btn {
     min-width: 142px;
-    height: 36px;
+    height: 34px;
     text-decoration: none;
     border: none;
     border-radius: 2px;
     font-size: 1.5rem;
-    padding: 0;
+    padding: 0 12px;
     cursor: pointer;
-    color: var(--text-color);    
+    color: var(--text-color);   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
-.btn:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+.btn.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .btn.btn--primary {
@@ -170,3 +101,8 @@ html {
     background-color: #c3c3c3;
 }
 
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px;
+    padding: 0 8px;
+}
