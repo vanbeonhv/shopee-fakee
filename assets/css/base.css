@@ -43,6 +43,16 @@ html {
     }
 }
 
+@keyframes growth {
+    from {
+        transform: scale(var(--scale-from));
+    }
+    to {
+        transform: scale(var(--scale-to));
+    }
+    
+}
+
 /* Modal layout */
 .modal {
     position: fixed;
@@ -62,11 +72,15 @@ html {
 }
 
 .modal__body {
+    
     background-color:var(--white-color);
     margin: auto;    
     position: relative;
     z-index: 2;
     border-radius: 3px;
+    animation: growth linear 0.1s;
+    --scale-from: 0.7;
+    --scale-to: 1;
 }
 
 
