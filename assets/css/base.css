@@ -4,13 +4,10 @@
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
-<<<<<<< HEAD
-=======
 
     --navbar-height: 34px;
     --header-height: 120px;
     --header-with-search-height: calc((var(--header-height)) - var(--navbar-height));
->>>>>>> 86ec19019d9b2ff46da458b8aa21d268c609b918
 }
 
 * {
@@ -67,12 +64,8 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-<<<<<<< HEAD
-    display: flex;
-=======
     /* display: flex; */
     display: none;
->>>>>>> 86ec19019d9b2ff46da458b8aa21d268c609b918
 }
 
 .modal__overlay {
