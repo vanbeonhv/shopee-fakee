@@ -5,11 +5,19 @@
 }
 
 .header {
+<<<<<<< HEAD
     height: 120px;
+=======
+    height: var(--header-height);
+>>>>>>> 86ec19019d9b2ff46da458b8aa21d268c609b918
     background-image: linear-gradient(0, #ff6533, #f53d2d);
 }
 
 .navbar {
+<<<<<<< HEAD
+=======
+    height: var(--navbar-height);
+>>>>>>> 86ec19019d9b2ff46da458b8aa21d268c609b918
     display: flex;
     justify-content: space-between;
 }
@@ -391,3 +399,111 @@
     color: var(--primary-color);
 }
 
+<<<<<<< HEAD
+=======
+
+/* Header with search */
+.header-with-search {
+    height: var(--header-with-search-height);
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__logo-img {
+    width: 150px;
+}
+
+.header__search {
+    flex: 1;
+    height: 40px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+
+}
+
+.header__cart {
+    width: 150px;
+    text-align: center;
+}
+
+.header__cart-icon {
+    color: var(--white-color);
+    font-size: 2.4rem;
+
+}
+
+.header__search--input {
+    height: 100%;
+    width: 100%;
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    opacity: 0.8;
+    padding: 0 0 0 10px;
+    flex: 1;
+}
+
+.header__search-separate {
+    display: block;
+    border-left: 1px solid #E8E8E8;
+    height: 30px;
+}
+
+.header__search-select {
+    margin: 0 0 0 16px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    position: relative;
+}
+
+.header__search-select-icon {
+    color:#939393;
+    margin: 0 8px;
+}
+
+.header__search-btn {
+    background-color: #fb5533;
+    color: var(--white-color);
+    height: 34px;
+    width: 60px;
+    margin-right: 3px; 
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+}
+
+.header__search-btn:hover {
+    background-color: #fb6445;
+}
+
+.header__search-btn-icon {
+    font-size: 1.4rem;
+
+}
+
+.header__search-option {
+    background-color: var(--white-color);
+    position: absolute;
+    list-style: none;
+    width: 140px;
+    right: 0;
+}
+
+.header__search-option--list {
+
+}
+
+.option__list-check {
+    display: inline-block;
+    color: var(--primary-color);
+}
+>>>>>>> 86ec19019d9b2ff46da458b8aa21d268c609b918
