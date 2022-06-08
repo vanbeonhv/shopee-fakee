@@ -429,6 +429,7 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 .header__cart-wrap {
     display: inline-block;
     padding: 0 12px;
@@ -498,6 +499,13 @@
 
 }
 
+=======
+.header__cart-icon {
+    color: var(--white-color);
+    font-size: 2.4rem;
+
+}
+>>>>>>> 9b4c93238def5c908ef5b317f04ccea40d3f07be
 .header__search--input-wrap {
     flex: 1;
     height: 100%;
@@ -648,5 +656,8 @@
     text-decoration: none;
     font-size: 1.4rem;
     color: var(--text-color);
+<<<<<<< HEAD
     display: block;
+=======
+>>>>>>> 9b4c93238def5c908ef5b317f04ccea40d3f07be
 }
