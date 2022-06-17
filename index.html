@@ -49,7 +49,7 @@
                     <ul class="navbar__list">
                         <li class="navbar__list--item">
                             <a href="" class="navbar__list--item-link">
-                                <i class="navbar__list--icon fa-solid fa-bell"></i>
+                                <i class="navbar__list--icon fa-regular fa-bell"></i>
                                 Thông báo
                             </a>
 
@@ -130,13 +130,24 @@
                             </div>
                         </li>
                         <li class="navbar__list--item">
-                            <i class="navbar__list--icon fa-solid fa-circle-question"></i>
+                            <i class="navbar__list--icon fa-regular fa-circle-question"></i>
                             Hỗ trợ</li>
                         <li class="navbar__list--item">
                             <i class="navbar__list--icon fa-solid fa-globe"></i>
                             Tiếng Việt</li>
-                        <li class="navbar__list--item navbar__list--item--strong navbar__list--item--separate">Đăng ký</li>
-                        <li class="navbar__list--item navbar__list--item--strong">Đăng nhập</li>
+                        <!-- <li class="navbar__list--item navbar__list--item--strong navbar__list--item--separate">Đăng ký</li>
+                        <li class="navbar__list--item navbar__list--item--strong">Đăng nhập</li> -->
+                        <li class="navbar__list--item navbar__list--user">
+                            <img src="./assets/img/user_avatar.jpg" alt="" class="navbar__list--user-img">
+                            <span class="navbar__list--user-name">Văn Nguyễn</span>
+                            <div class="navbar__user-info">
+                                <ul class="navbar__user-info-list">
+                                    <li class="navbar__user-info-item">Tài Khoản Của Tôi</li>
+                                    <li class="navbar__user-info-item">Đơn Mua</li>
+                                    <li class="navbar__user-info-item">Đăng Xuất</li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                     
                 </nav>
@@ -144,6 +155,7 @@
                 <!-- Header with search -->
                 <div class="header-with-search">
                     <div class="header__logo">
+                       <a href="/" class="header__logo-link">
                         <svg viewBox="0 0 192 65" class="header__logo-img">
                             <g fill-rule="evenodd">
                                 <path 
@@ -152,6 +164,7 @@
                                 ></path>
                             </g>
                         </svg>
+                       </a>
                     </div>
                     <div class="header__search">
                         <div class="header__search--input-wrap">
@@ -162,19 +175,11 @@
                                 <h3 class="header__search--history-heading">Lịch sử tìm kiếm</h3>
                                 <ul class="header__search--history-list">
                                     <li class="header__search--history-list-item">
-<<<<<<< HEAD
                                         <a href="#">Lăn khử mùi</a></li>
                                     <li class="header__search--history-list-item">
                                         <a href="#">Thuốc trị ghẻ</a></li>
                                     <li class="header__search--history-list-item">
                                         <a href="#">Đồ chơi nam</a></li>
-=======
-                                        <a href="">Lăn khử mùi</a></li>
-                                    <li class="header__search--history-list-item">
-                                        <a href="">Thuốc trị ghẻ</a></li>
-                                    <li class="header__search--history-list-item">
-                                        <a href="">Đồ chơi nam</a></li>
->>>>>>> 9b4c93238def5c908ef5b317f04ccea40d3f07be
                                 </ul>
                                 <a href=""></a>
                                 
@@ -195,24 +200,70 @@
                         </button>
                     </div>
 
-<<<<<<< HEAD
                     <!-- Cart layout -->
                     <div class="header__cart">
                         <div class="header__cart-wrap">
                             <i class="fa-solid fa-cart-shopping header__cart-icon"></i>
+                            <span class="header__cart-notice">3</span>
                             <!-- No cart:  header__cart-list--no-cart  -->
                             <div class="header__cart-list ">
                                 <img src="./assets/img/no_cart.png" alt="" class="header__cart--no-cart-img">
                                 <p class="header__cart-list-no-cart-msg">
                                     Chưa có sản phẩm
                                 </p>
+
+                                <!-- Cart list -->
+                                <h4 class="header__cart-heading">Sản Phẩm Đã Thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/item_4.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Greet Set 29 Mô Hình Nhân Vật</h5>
+                                                <span class="header__cart-item-price">120.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-quantity">1</span>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại hàng: Nhựa cao cấp</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/item_5.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Áo Polo Nam FEEL GOOD có cổ</h5>
+                                                <span class="header__cart-item-price">159.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-quantity">1</span>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại hàng: Nhựa cao cấp</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li><li class="header__cart-item">
+                                        <img src="./assets/img/item_6.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Mô hình Pokemon đáng yêu dùng để</h5>
+                                                <span class="header__cart-item-price">1.925đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-quantity">1</span>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại hàng: Nhựa cao cấp</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="header__cart-view btn btn--primary">Xem giỏ hàng</button>
                             </div>
                         </div>
 
-=======
-                    <div class="header__cart">
-                        <i class="fa-solid fa-cart-shopping header__cart-icon"></i>
->>>>>>> 9b4c93238def5c908ef5b317f04ccea40d3f07be
                     </div>
                 </div>
             </div>
@@ -223,7 +274,135 @@
         </div>
         
         <footer class="footer">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">
+                        Chăm sóc khách hàng
+                    </h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">Trung tâm trợ giúp</li>
+                        <li class="footer__list-item">Shopee Blog</li>
+                        <li class="footer__list-item">Shopee Mall</li>
+                        <li class="footer__list-item">Hướng Dẫn Mua Hàng</li>
+                        <li class="footer__list-item">Hướng Dẫn Bán Hàng</li>
+                        <li class="footer__list-item">Thanh Toán</li>
+                        <li class="footer__list-item">Shopee Xu</li>
+                        <li class="footer__list-item">Vận Chuyển</li>
+                        <li class="footer__list-item">Trả Hàng & Hoàn Tiền</li>
+                        <li class="footer__list-item">Chăm Sóc Khách Hàng</li>
+                        <li class="footer__list-item">Chính Sách Bảo Hành</li>
+                    </ul>
 
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">
+                        Về shopee
+                    </h3>
+                    <ul class="footer__list"></ul>
+                    <li class="footer__list-item">Giới Thiệu Về Shopee Việt Nam</li>
+                    <li class="footer__list-item">Tuyển Dụng</li>
+                    <li class="footer__list-item">Điều Khoản Shopee</li>
+                    <li class="footer__list-item">Chính Sách Bảo Mật</li>
+                    <li class="footer__list-item">Chính Hãng</li>
+                    <li class="footer__list-item">Kênh Người Bán</li>
+                    <li class="footer__list-item">Flash Sales</li>
+                    <li class="footer__list-item">Chương Trình Tiếp Thị Liên Kết Shopee</li>
+                    <li class="footer__list-item">Liên Hệ Với Truyền Thông</li>
+
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">
+                        Thanh toán
+                    </h3>
+                    <ul class="footer__payment-list">
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__visa"></div>
+                        </li>
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__master-card"></div>
+                        </li>
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__jcb"></div>
+                        </li>
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__mex"></div>
+                        </li>
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__cod"></div>
+                        </li>
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__installment"></div>
+                        </li>
+                        <li class="footer__payment-icon">
+                            <div class="footer__background footer__shopee-pay"></div>
+                        </li>                        
+                    </ul>
+                    <h3 class="footer__heading">
+                        Đơn vị vận chuyển
+                    </h3>
+                    <ul class="footer__transport-list">
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__shopee-express"></div>
+                        </li>
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__ghtk"></div>
+                        </li>
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__ghn"></div>
+                        </li>
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__vt-port"></div>
+                        </li>
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__vn-port"></div>
+                        </li>
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__j&t"></div>
+                        </li>
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__grab-express"></div>
+                        </li>   
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__ninja-van"></div>
+                        </li> 
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__ best-express"></div>
+                        </li> 
+                        <li class="footer__transport-icon">
+                            <div class="footer__background footer__bee"></div>
+                        </li>                      
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">
+                        Theo dõi chúng tôi trên
+                    </h3>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-icon">
+                            <div class="footer__background footer__fb"></div>
+                        </li>
+                        <li class="footer__social-icon">
+                            <div class="footer__background footer__ig"></div>
+                        </li>
+                        <li class="footer__social-icon">
+                            <div class="footer__background footer__linked-in"></div>
+                        </li>                                   
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">
+                        Tải ứng dụng shopee ngay thôi
+                    </h3>
+                    <a href="/" class="footer__dowload">
+                        <img class="footer__qr-code" src="/assets/img/qr-code.png" alt="">
+                        <div class="footer__app-store">
+                            <img src="./assets/img/app-store.png" alt="" class="footer__app-store-icon">
+                            <img src="./assets/img/google-play.png" alt="" class="footer__app-store-icon">
+                            <img src="./assets/img/app-gallery.png" alt="" class="footer__app-store-icon">
+                        </div>
+                    </a>
+                </div>
+            </div>
         </footer>
 
         <!-- Modal layout -->
