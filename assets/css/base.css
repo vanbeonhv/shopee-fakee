@@ -51,6 +51,12 @@ html {
     margin-right: 12px;
     width: 83.3334%;
 }
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
 /* Animation */
 @keyframes fadeIn {
     from {
@@ -76,6 +82,7 @@ html {
     position: fixed;
     top: 0;
     right: 0;
+
     bottom: 0;
     left: 0;
     /* display: flex; */
@@ -105,7 +112,7 @@ html {
 
 /* Button style */
 .btn {
-    min-width: 142px;
+    min-width: 124px;
     height: 34px;
     text-decoration: none;
     border: none;
@@ -139,3 +146,4 @@ html {
     font-size: 12px;
     padding: 0 8px;
 }
+
