@@ -175,10 +175,16 @@
                                 <h3 class="header__search--history-heading">Lịch sử tìm kiếm</h3>
                                 <ul class="header__search--history-list">
                                     <li class="header__search--history-list-item">
+                                        <a href=""></a>
+
                                         <a href="#">Lăn khử mùi</a></li>
                                     <li class="header__search--history-list-item">
+                                        <a href=""></a>
+
                                         <a href="#">Thuốc trị ghẻ</a></li>
                                     <li class="header__search--history-list-item">
+                                        <a href=""></a>
+
                                         <a href="#">Đồ chơi nam</a></li>
                                 </ul>
                                 <a href=""></a>
@@ -215,6 +221,8 @@
                                 <!-- Cart list -->
                                 <h4 class="header__cart-heading">Sản Phẩm Đã Thêm</h4>
                                 <ul class="header__cart-list-item">
+                                    <a href=""></a>
+
                                     <li class="header__cart-item">
                                         <img src="./assets/img/item_4.jpg" alt="" class="header__cart-img">
                                         <div class="header__cart-item-info">
@@ -269,138 +277,282 @@
             </div>
         </header>
 
-        <div class="container">
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="fa fa-list category__heading-icon"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__title">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn btn--primary ">Phổ Biến</button>
+                            <button class="home-filter__btn btn">Mới Nhất</button>
+                            <button class="home-filter__btn btn">Bán Chạy</button>
+                            <div class="filter-select">
+                                <span>Giá</span> 
+                                <i class="filter-icon fa-solid fa-angle-down"></i>
+                                <ul class="filter-select__list">
+                                    <li class="filter-select__item">
+                                        <a href="#" class="filter-select__link">Giá: Thấp đến Cao</a>
+                                    </li>
+                                    <li class="filter-select__item">
+                                        <a href="#" class="filter-select__link">Giá: Cao đến Thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page-controller">
+                                <span class="home-filter__page-no-current">1</span>
+                                <span class="home-filter__page-no-total">/6</span>
+                                <!-- Disable Button -->
+                                <button class="home-filter__btn-disable home-filter__arrow-left">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                </button>
+                                <button class="home-filter__arrow-right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
 
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
         
         <footer class="footer">
-            <div class="grid__row">
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">
-                        Chăm sóc khách hàng
-                    </h3>
-                    <ul class="footer__list">
-                        <li class="footer__list-item">Trung tâm trợ giúp</li>
-                        <li class="footer__list-item">Shopee Blog</li>
-                        <li class="footer__list-item">Shopee Mall</li>
-                        <li class="footer__list-item">Hướng Dẫn Mua Hàng</li>
-                        <li class="footer__list-item">Hướng Dẫn Bán Hàng</li>
-                        <li class="footer__list-item">Thanh Toán</li>
-                        <li class="footer__list-item">Shopee Xu</li>
-                        <li class="footer__list-item">Vận Chuyển</li>
-                        <li class="footer__list-item">Trả Hàng & Hoàn Tiền</li>
-                        <li class="footer__list-item">Chăm Sóc Khách Hàng</li>
-                        <li class="footer__list-item">Chính Sách Bảo Hành</li>
-                    </ul>
-
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">
-                        Về shopee
-                    </h3>
-                    <ul class="footer__list"></ul>
-                    <li class="footer__list-item">Giới Thiệu Về Shopee Việt Nam</li>
-                    <li class="footer__list-item">Tuyển Dụng</li>
-                    <li class="footer__list-item">Điều Khoản Shopee</li>
-                    <li class="footer__list-item">Chính Sách Bảo Mật</li>
-                    <li class="footer__list-item">Chính Hãng</li>
-                    <li class="footer__list-item">Kênh Người Bán</li>
-                    <li class="footer__list-item">Flash Sales</li>
-                    <li class="footer__list-item">Chương Trình Tiếp Thị Liên Kết Shopee</li>
-                    <li class="footer__list-item">Liên Hệ Với Truyền Thông</li>
-
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">
-                        Thanh toán
-                    </h3>
-                    <ul class="footer__payment-list">
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__visa"></div>
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">
+                            Chăm sóc khách hàng
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="">Trung tâm trợ giúp</a> 
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Shopee Blog
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Shopee Mall
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Hướng Dẫn Mua Hàng
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Hướng Dẫn Bán Hàng
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Thanh Toán
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Shopee Xu
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Vận Chuyển
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Trả Hàng & Hoàn Tiền
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Chăm Sóc Khách Hàng
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">
+                                    Chính Sách Bảo Hành
+                                </a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">
+                            Về shopee
+                        </h3>
+                        <ul class="footer__list"></ul>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Giới Thiệu Về Shopee Việt Nam
+                            </a>
                         </li>
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__master-card"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Tuyển Dụng
+                            </a>
                         </li>
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__jcb"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Điều Khoản Shopee
+                            </a>
                         </li>
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__mex"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Chính Sách Bảo Mật
+                            </a>
                         </li>
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__cod"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Chính Hãng
+                            </a>
                         </li>
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__installment"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Kênh Người Bán
+                            </a>
                         </li>
-                        <li class="footer__payment-icon">
-                            <div class="footer__background footer__shopee-pay"></div>
-                        </li>                        
-                    </ul>
-                    <h3 class="footer__heading">
-                        Đơn vị vận chuyển
-                    </h3>
-                    <ul class="footer__transport-list">
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__shopee-express"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Flash Sales
+                            </a>
                         </li>
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__ghtk"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Chương Trình Tiếp Thị Liên Kết Shopee
+                            </a>
                         </li>
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__ghn"></div>
+                        <li class="footer__list-item">
+                            <a href="">
+                                Liên Hệ Với Truyền Thông
+                            </a>
                         </li>
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__vt-port"></div>
-                        </li>
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__vn-port"></div>
-                        </li>
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__j&t"></div>
-                        </li>
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__grab-express"></div>
-                        </li>   
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__ninja-van"></div>
-                        </li> 
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__ best-express"></div>
-                        </li> 
-                        <li class="footer__transport-icon">
-                            <div class="footer__background footer__bee"></div>
-                        </li>                      
-                    </ul>
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">
-                        Theo dõi chúng tôi trên
-                    </h3>
-                    <ul class="footer__social-list">
-                        <li class="footer__social-icon">
-                            <div class="footer__background footer__fb"></div>
-                        </li>
-                        <li class="footer__social-icon">
-                            <div class="footer__background footer__ig"></div>
-                        </li>
-                        <li class="footer__social-icon">
-                            <div class="footer__background footer__linked-in"></div>
-                        </li>                                   
-                    </ul>
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">
-                        Tải ứng dụng shopee ngay thôi
-                    </h3>
-                    <a href="/" class="footer__dowload">
-                        <img class="footer__qr-code" src="/assets/img/qr-code.png" alt="">
-                        <div class="footer__app-store">
-                            <img src="./assets/img/app-store.png" alt="" class="footer__app-store-icon">
-                            <img src="./assets/img/google-play.png" alt="" class="footer__app-store-icon">
-                            <img src="./assets/img/app-gallery.png" alt="" class="footer__app-store-icon">
-                        </div>
-                    </a>
+    
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">
+                            Thanh toán
+                        </h3>
+                        <ul class="footer__payment-list">
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__visa"></div>
+                            </li>
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__master-card"></div>
+                            </li>
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__jcb"></div>
+                            </li>
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__mex"></div>
+                            </li>
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__cod"></div>
+                            </li>
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__installment"></div>
+                            </li>
+                            <li class="footer__payment-icon">
+                                <div class="footer__background footer__shopee-pay"></div>
+                            </li>                        
+                        </ul>
+                        <h3 class="footer__heading">
+                            Đơn vị vận chuyển
+                        </h3>
+                        <ul class="footer__transport-list">
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__shopee-express"></div>
+                            </li>
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__ghtk"></div>
+                            </li>
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__ghn"></div>
+                            </li>
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__vt-port"></div>
+                            </li>
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__vn-port"></div>
+                            </li>
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__jnt"></div>
+                            </li>
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__grab-express"></div>
+                            </li>   
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__ninja-van"></div>
+                            </li> 
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__best-express"></div>
+                            </li> 
+                            <li class="footer__transport-icon">
+                                <div class="footer__background footer__bee"></div>
+                            </li>                      
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">
+                            Theo dõi chúng tôi trên
+                        </h3>
+                        <ul class="footer__social-list">
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <div class="footer__background footer__fb"></div>
+                                    <span class="footer__social-text">Facebook</span>    
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <div class="footer__background footer__ig"></div>
+                                    <span class="footer__social-text">Instagram</span>    
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <div class="footer__background footer__linked-in"></div>
+                                    <span class="footer__social-text">LinkedIn</span>    
+                                </a>
+                            </li>                                   
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">
+                            Tải ứng dụng shopee ngay thôi
+                        </h3>
+                        <a href="/" class="footer__dowload">
+                            <img class="footer__qr-code" src="./assets/img/qr-code.png" alt="">
+                            <div class="footer__app-store">
+                                <img src="./assets/img/app-store.png" alt="" class="footer__app-store-icon">
+                                <img src="./assets/img/google-play.png" alt="" class="footer__app-store-icon">
+                                <img src="./assets/img/app-gallery.png" alt="" class="footer__app-store-icon">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
