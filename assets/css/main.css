@@ -1143,7 +1143,7 @@
     margin-bottom: 4px;
 }
 
-.footer__dowload {
+.footer__download {
     display: flex;
     align-items: center;
 }
@@ -1223,6 +1223,8 @@
     background-color: #EDEDED;
     margin: 0;
     padding: 4px 0 4px 12px;
+    
+
 
 }
 
