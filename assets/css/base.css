@@ -4,7 +4,7 @@
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
-
+    --star-gold-color: #ffce3e;
     --navbar-height: 34px;
     --header-height: 120px;
     --header-with-search-height: calc((var(--header-height)) - var(--navbar-height));
@@ -35,6 +35,28 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* Test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+
+.grid__column-2-5 {
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
 }
 
 /* Animation */
@@ -62,6 +84,7 @@ html {
     position: fixed;
     top: 0;
     right: 0;
+
     bottom: 0;
     left: 0;
     /* display: flex; */
@@ -91,16 +114,16 @@ html {
 
 /* Button style */
 .btn {
-    min-width: 142px;
+    min-width: 54px;
     height: 34px;
     text-decoration: none;
     border: none;
     border-radius: 2px;
     font-size: 1.5rem;
-    padding: 0 12px;
+    padding: 0 5px;
     cursor: pointer;
     color: var(--text-color);   
-    display: flex; 
+    display: inline-flex; 
     justify-content: center;
     align-items: center;
 }
@@ -124,4 +147,49 @@ html {
     height: 32px;
     font-size: 12px;
     padding: 0 8px;
+}
+
+/* Pagination */
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.pagination-wrap {
+    margin: 40px auto 158px auto;
+    padding-left: 0;
+}
+
+.pagination-item {
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+.pagination-item-link {
+    text-decoration: none;
+    color: #AAAAAA;
+    min-width: 40px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 3.1rem;
+
+}
+
+.pagination-item-link:hover {
+    color: var(--primary-color);
+}
+
+.pagination-item .pagination-item-link-active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 2px;
+}
+
+.pagination-item-link-active:hover {
+    background-color: #f35c3e;
 }
