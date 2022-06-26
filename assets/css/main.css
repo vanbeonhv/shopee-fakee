@@ -944,7 +944,6 @@
 }
 
 
-
 .home-filter {
     background-color: #EDEDED;
     padding: 13px 20px;
@@ -1235,10 +1234,6 @@ i.product-like-icon-filled {
     padding-top: 120px;
 }
 
-/* .footer-separate {
-    display: block;
-    height: 120px;
-} */
 .footer__heading {
     font-size: 1.3rem;
     text-transform: uppercase;
