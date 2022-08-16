@@ -1266,7 +1266,7 @@ i.product-like-icon-filled {
 }
 
 .footer__background {
-    background-image: url(/././assets/img/payment.png);
+    background-image: url(../../assets/img/payment.png);
 }
 
 .footer__payment-list,
