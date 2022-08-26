@@ -1127,7 +1127,6 @@
 
 i.product-like-icon-filled {
     color: var(--primary-color);
-    display: none;
 }
 .product-rate {
     font-size: 0.8rem;
