@@ -962,6 +962,7 @@
     min-width: 90px;
     background-color: var(--white-color);
     margin-left: 12px;
+    outline: none;
 }
 
 .filter-select {
@@ -1127,7 +1128,6 @@
 
 i.product-like-icon-filled {
     color: var(--primary-color);
-    display: none;
 }
 .product-rate {
     font-size: 0.8rem;
@@ -1266,7 +1266,7 @@ i.product-like-icon-filled {
 }
 
 .footer__background {
-    background-image: url(/assets/img/payment.png);
+    background-image: url(../../assets/img/payment.png);
 }
 
 .footer__payment-list,
